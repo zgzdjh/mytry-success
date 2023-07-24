@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "保存二维码",
+  "usingComponents": {
+    "painter": "/components/painter/painter"
+  }
+}

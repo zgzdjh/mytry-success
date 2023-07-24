@@ -1,0 +1,16 @@
+<painter 
+    palette="{{paintPallette}}"
+    bind:imgOK="onImgOK"
+    widthPixels="1000"
+    scaleRatio="3"
+/>
+<!-- <painter 
+    palette="{{paintPallette}}"
+    bind:imgOK="onImgOK"
+    widthPixels="1000"
+/> -->
+<view class="painterImageOut">
+    <image class="painterImage" src="{{image}}" bindlongtap="saveImage"/>
+    <!-- <image class="painterImage" src="{{image}}" bindtap="saveImage"/> -->
+    <!-- <button bindtap="saveImage">点击保存</button> -->
+</view>

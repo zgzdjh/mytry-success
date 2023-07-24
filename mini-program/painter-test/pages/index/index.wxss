@@ -1,0 +1,15 @@
+.painterImageOut {
+    /* 重要 */
+    height: 100vh;
+    background-color: #f0f0f0;
+
+    display: flex;
+}
+.painterImage {
+    background-color: #f0f0f0;
+    height: auto;
+    width: auto;
+    padding: 150rpx 80rpx;
+
+    flex: 1;
+}
